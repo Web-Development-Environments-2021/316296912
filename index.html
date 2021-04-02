@@ -5,128 +5,92 @@
 </head>
 <body>
 <div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+  <div id="top">
+    <img src="topimage.png" />
+    <br/>
+    <img src="topimage1.png" width=55%/>
+    <br/>
+    <img src="topimage2.png" width=12%/>
+  </div>
+  <br/>
+  <a id="button" class="wide" href="#">TOP</a>
+  <div id="right-menu">
+    <a id="button" href="#about">About Me</a>
+    <a id="button" href="#photos">My Photos</a>
+    <a id="button" href="#playlist">My Playlist</a>
+    <a id="button" href="#like">Like</a>
+    <a id="button" href="#qrcoder">QR code</a>
+    <a id="button" href="#spa">Q&A</a>
+    <a id="button" href="#contact">Contact Me</a>
+  </div>
 </div>
-		  
+
+<div id="top" style="padding-top:175px">
+  <img src="headerimage.jpg" width="100%">
+</div>
+
 <section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
+  <h1 style="color: #ea181f;">
+    About Me
+  </h1>
+  <p>
+    <img src="aboutme.jpg" width="300" height="300" style="border-radius: 50%; float: left;"/>
+    <br/>
+    kjnjknkjn
+  </p>
 </section>
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 <section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
+  <h1 style="color: #00b3e8;">
+    My Photos
+  </h1>
+  <div id="row">
+    <div id="column">
+      <img src="image4.webp">
+      <img src="image13.jpg">
+      <img src="image10.jpg">
+      <img src="image8.webp">
+    </div>
+    <div id="column">
+      <img src="image3.jpg">
+      <img src="image6.jpg">
+      <img src="image11.jpg">
+    </div>
+    <div id="column">
+      <img src="image2.jpeg">
+      <img src="image7.webp">
+      <img src="image9.png">
+    </div>
+    <div id="column">
+      <img src="image14.jpg">
+      <img src="image12.jpg">
+      <img src="image5.png">
+    </div>
+  </div>
 </section>
 
 <section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
+  <h1>
+    My Playlist
+  </h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XNXIZuIBJKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 
 <section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
+  <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 </section>
 
 <section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
+
 </section>
 
 <section id="spa" class="section">
@@ -188,6 +152,8 @@ $(function(){
  $(document).scroll(function() {
     $('#menu').toggle($(this).scrollTop()>1000)
  });​
+
+
  </script>
 </body>
 </html>
