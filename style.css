@@ -39,12 +39,6 @@
 	letter-spacing: 4px;
 }
 
-#section{
-	padding-top:175px;
-	padding-left: 16px;
-	padding-bottom: 50px;
-}
-
 .section{
 	padding: 175px;
 }
@@ -53,10 +47,6 @@ h1{
 	font-family:"Marker Felt" ,fantasy;
 	 text-align:center; 
 	 font-weight: 5;
-}
-
-#about{
-	width: 100%;
 }
 
 #row {
@@ -84,8 +74,6 @@ h1{
   }
 
   #photos, #contact, #qrcoder{
-	  padding-left: 70px;
-	  padding-right: 0;
 	  background-color: rgb(221, 220, 220);
   }
 
