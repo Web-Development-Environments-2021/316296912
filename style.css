@@ -105,12 +105,19 @@ h1{
 		padding:.2rem 2.5rem;
 		font-size:1rem;
 		line-height:1.5;
-		border-radius:.3rem
+		border-radius:.3rem;
 	}
 
 	.btn:hover{
 		color:#fff;
 		background-color:#23272b;
 		border-color:#1d2124;
+	}
+
+	td, th{
+		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		border: 1px solid #dddddd;
+		text-align: center;
+		padding: 8px;
 	}
 	
